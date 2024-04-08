@@ -41,7 +41,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //owmner v card
 //________________________________________________________________________________________________________
-global.ytname = process.env.YT_NAME || "YT: Manaj Dhar" //ur yt chanel name
+global.ytname = process.env.YT_NAME || "YT: Shadowstep" //ur yt chanel name
 //________________________________________________________________________________________________________
 global.socialm = process.env.MEDIA || "GitHub: shadowstepakshat" //ur github or insta name
 //________________________________________________________________________________________________________
@@ -54,7 +54,7 @@ global.botname = process.env.BOT_NAME || 'Ragnar-Bot' //ur bot name
 //________________________________________________________________________________________________________
 global.ownernumber = process.env.SUDO || '917056066661' //ur owner number
 //________________________________________________________________________________________________________
-global.ownername = process.env.SUDO_NAME || 'Manaj Dhar' //ur owner name
+global.ownername = process.env.SUDO_NAME || 'Shadowstep' //ur owner name
 //________________________________________________________________________________________________________
 global.websitex = process.env.YT_LINK || "https://youtube.com/@s4salmanyt"
 //________________________________________________________________________________________________________
